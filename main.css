@@ -1,0 +1,112 @@
+body {
+  background: url(img/loginpage_1.jpg)
+    fixed no-repeat;
+  background-size: cover;
+}
+
+.mylogo {
+  width: 300px;
+  height: 75px;
+  display: block;
+  margin: 0 auto;
+}
+.hero {
+  margin: 0 auto;
+  width: 520px;
+}
+.main {
+  width: 100%;
+  text-align: right;
+  margin: 0 auto;
+  padding-top: 0px;
+  min-height: inherit;
+  padding-right: 60px;
+}
+.login {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 30px;
+  width: 550px;
+  float: left;
+  height: 280px;
+  background: url(img/login_box_bg.png) no-repeat right top
+    rgba(24, 84, 172, 0.9);
+  box-shadow: 15px 15px 30px rgb(0 0 0 / 10%);
+}
+.input-id-password {
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: 0px;
+  background-color: white;
+  box-shadow: none;
+  height: 50px;
+  width: 100%;
+  max-width: 320px;
+}
+.loginbtn {
+  width: 135px;
+  height: 103px;
+  margin: 0px;
+  border: 0px;
+  border-radius: 4px;
+  box-shadow: none;
+  background-color: #f36f21;
+  color: white;
+  font-size: 14pt;
+}
+.nameremember {
+  color: rgba(255, 255, 255, 0.4);
+}
+.notice {
+  padding: 20px 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 280px;
+  width: 550px;
+  display: flex;
+  box-shadow: 15px 15px 30px rgb(0 0 0 / 10%);
+}
+.more {
+  background: url(img/login-notice-more.png)
+    no-repeat center;
+  width: 30px;
+  height: 30px;
+  margin-left: 100px;
+  text-decoration: none;
+  background-color: #3859a7;
+}
+.list {
+  padding-left: 16px;
+  line-height: 35px;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.noticetext {
+  text-decoration: none;
+  font-size: 16px;
+  color: #666;
+  font-weight: 500;
+}
+.etc {
+  height: 280px;
+  width: 550px;
+}
+
+.navbox {
+  box-shadow: 15px 15px 30px rgb(0 0 0 / 10%);
+  background: url(img/login-buttonset-bg.png) no-repeat right 14px center
+    rgba(128, 128, 132, 0.8);
+  padding: 15px 20px;
+  font-size: 15px;
+  border-radius: 0px;
+  color: #fff;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  width: 133px;
+  height: 68px;
+}
